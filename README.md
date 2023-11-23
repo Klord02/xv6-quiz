@@ -117,3 +117,37 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 
 ## Answers
 Please write your answers here
+
+1. b
+2. c
+3. d
+4. b
+5. a
+6. c
+7. a
+8. a
+9. d
+10. b   
+11. c
+
+12. In XV6, the process can be in 5 states:
+    I) If a process has been loaded into the memory
+    II) If a process is ready to run
+    III) If a process is currently running
+    IV) If the process is in wait state waiting for Input/Output
+    V) If the process has exitted/terminated
+
+13. Buffer Cache, Cache, Main Memory, Secondary Storage
+
+14. In a system call we are directly using the base function that will be actually communicating with the hardware using the Kernel for eg: fork(), read() and the library function is a function that is an abstracted form of the system call which directly does not communicate with the kernel but rather contains system calls in which then communicate with the kernel for eg; print(), scanf() etc.
+
+15. In memory paging we create a relation between the virtual memory and the physical memeory using pages.
+
+16. The three essential commands are:
+    I) ls : this lists out all the files in the current working directory
+    II) cd : this helps the user to navigate the working directory by going out of the current directory, into some other directory, etc.
+    III) sh : this is used to run a shell script
+
+17. Process Synchronization is used in xv6 to ensure that the system does not go into deadlock. For this xv6 implents it using semaphores.
+
+19. Virtual memory is the technique in which we make the computer believe that we have more main memory than we actually have by storing the processes in the main memory, keeping track of them and then loading them into the main memory as required thus making it seem that they were in the main memory all along.
